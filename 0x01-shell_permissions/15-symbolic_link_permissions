@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty:holberton hello_symlnk
+chown betty:holberton _hello
