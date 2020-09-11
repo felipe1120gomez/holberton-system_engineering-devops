@@ -14,7 +14,7 @@ is used to print all the groups the current user is part of.
 
 ## 3-new_owner
 
-is used to change he owner of the file to...
+is used to change the owner of the file to...
 
 ## 4-empty
 
@@ -56,4 +56,22 @@ is used to create a directory called dir_holberton with permissions 751 in the w
 
 is used to change the group owner to holberton for the file hello.
 
-##
+## 14-change_owner_and_group
+
+is used to change the owner to betty and the group owner to holberton for all the files and directories in the working directory.
+
+## 15-symbolic_link_permissions
+
+is used to change the owner and the group owner of the file _hello to betty and holberton respectively.
+
+## 16-if_only
+
+is used to change the owner of the file hello to betty only if it is owned by the user guillaume.
+
+## 100-Star_Wars
+
+play the StarWars IV episode in the terminal.
+
+## 101-man_holberton
+
+Read the f**king manual.
