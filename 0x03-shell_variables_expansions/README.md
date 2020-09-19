@@ -1,61 +1,73 @@
 # Scripts
 
-## 0-hello_world
+## 0-alias
 
-is used to print “Hello, World”, followed by a new line to the standard output.
+is used to create an alias.
 
-## 1-confused_smiley
+## 1-hello_you
 
-is used to display a confused smiley "(Ôo)'.
+is used to print hello user, where user is the current Linux user.
 
-## 2-hellofile
+## 2-path
 
-is used to display the content of the /etc/passwd file.
+is used to add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
-## 3-twofiles
+## 3-paths
 
-is used to display the content of /etc/passwd and /etc/hosts
+is used to count the number of directories in the PATH.
 
-## 4-lastlines
+## 4-global_variables
 
-is used to display the last 10 lines of /etc/passwd
+is used to list environment variables.
 
-## 5-firstlines
+## 5-local_variables
 
-is used to display the first 10 lines of /etc/passwd
+is used to list all local variables and environment variables, and functions.
 
-## 6-third_line
+## 6-create_local_variable
 
-is used to display the third line of the file iacta.
+is used to create a new local variable.
 
-## 7-file
+## 7-create_global_variable
 
-is used to create a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School ending by a new line.
+is used to create a new global variable.
 
-## 8-cwd_state
+## 8-true_knowledge
 
-is used to write into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
+is used to print the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 
-## 9-duplicate_last_line
+## 9-divide_and_rule
 
-is used to duplicate the last line of the file iacta
+is used to print the result of POWER divided by DIVIDE, followed by a new line.
 
-## 10-no_more_js
+## 10-love_exponent_breath
 
-is used to delete all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+is used to display the result of BREATH to the power LOVE
 
-## 11-directories
+## 11-binary_to_decimal
 
-is used to count the number of directories and sub-directories in the current directory.
+is used to convert a number from base 2 to base 10.
 
-## 12-newest_files
+## 12-combinations
 
-is used to display the 10 newest files in the current directory.
+is used to print all possible combinations of two letters, except oo.
 
-## 13-unique
+## 13-print_float
 
-is used to take a list of words as input and prints only words that appear exactly once.
+is used to print a number with two decimal places, followed by a new line.
 
-## 14-findthatword
+## 14-decimal_to_hexadecimal
 
-is used to
+is used to convert a number from base 10 to base 16.
+
+## 100-rot13
+
+is used to encode and decode text using the rot13 encryption. Assume ASCII.
+
+## 101-odd
+
+is used to print every other line from the input, starting with the first line.
+
+## 102-water_and_stir
+
+is used to add the two numbers stored in the environment variables WATER and STIR and prints the result.
